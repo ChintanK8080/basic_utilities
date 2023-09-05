@@ -7,16 +7,6 @@ environment:
   sdk: '>=3.0.1 <4.0.0'
   flutter: ">=1.17.0"
 
-flutter:
-  plugin:
-    platforms:
-      android:
-        package: basic_utilities_ck
-        pluginClass: BasicUtilitiesCk
-      ios:
-        pluginClass: BasicUtilitiesCk
-
-
 dependencies:
   flutter:
     sdk: flutter
