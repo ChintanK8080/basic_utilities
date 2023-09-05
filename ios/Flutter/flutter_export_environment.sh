@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=/Users/baps/fvm/versions/3.10.1"
-export "FLUTTER_APPLICATION_PATH=/Users/baps/LiveProject/Bitbucket/basic_utilities_ck"
+export "FLUTTER_APPLICATION_PATH=/Users/baps/LiveProject/Bitbucket/sample_app/package/basic_utilities_main"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_TARGET=lib/main.dart"
 export "FLUTTER_BUILD_DIR=build"

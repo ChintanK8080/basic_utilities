@@ -147,16 +147,14 @@ class BasicUtilitiesCk {
     );
   }
 
-  static void logWithLocation(String message) {
-    String stackTrace = StackTrace.current.toString();
-    List<String> lines = stackTrace.split("\n");
-
-    String callerLine = lines[1].trim();
-    int startIndex = callerLine.indexOf(" ");
-    int endIndex = callerLine.lastIndexOf("(");
-
-    String callerFile = callerLine.substring(startIndex, endIndex).trim();
-    int? callerLineNumber =
-        int.tryParse(callerLine.substring(endIndex + 1, callerLine.length - 1));
-  }
+  // static void logWithLocation(String message) {
+  //   String stackTrace = StackTrace.current.toString();
+  //   List<String> lines = stackTrace.split("\n");
+  //   String callerLine = lines[1].trim();
+  //   int startIndex = callerLine.indexOf(" ");
+  //   int endIndex = callerLine.lastIndexOf("(");
+  // String callerFile = callerLine.substring(startIndex, endIndex).trim();
+  // int? callerLineNumber =
+  //     int.tryParse(callerLine.substring(endIndex + 1, callerLine.length - 1));
+  // }
 }
