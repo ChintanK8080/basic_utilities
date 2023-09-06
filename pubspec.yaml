@@ -1,6 +1,6 @@
 name: basic_utilities_ck
 description: "A temporary Flutter package for testing and experimentation.This package is created for testing and experimentation purposes only. It may contain code or features that are not intended for production use. Feel free to use it for your testing needs, and you can delete it after you're done with your testing and experimentation."
-version: 0.0.3
+version: 0.0.30
 repository: "https://github.com/ChintanK8080/basic_utilities.git"
 
 environment:
@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   fluttertoast: ^8.2.2
-  shared_preferences: ^2.2.1
+  shared_preferences: ^2.0.15
 
 dev_dependencies:
   flutter_test:
